@@ -1,2 +1,3 @@
-# Download-from-YT
-Download de musicas e/ou vídeos do YT
+# Download from YT
+
+Faça o download de músicas ou vídeos do YouTube usando Python, de maneira simples e prática!
