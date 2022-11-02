@@ -1,20 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Download videos and/or audios from playlists on YouTube
-
-# ## Imports
-
-# In[1]:
-
-
 import pytube as py
-
-
-# ## Code
-
-# In[19]:
-
 
 def download_playlist(link, download_audio=True):
     """
@@ -53,22 +37,8 @@ def download_playlist(link, download_audio=True):
         return True
 
 
-# In[ ]:
-
-
 # download only the audios
-download_playlist('https://www.youtube.com/playlist?list=PL2M0f7eTUkTqsiyF87or1zg4MtHZP0A2y')
-
-
-# In[ ]:
-
+download_playlist('link of the playlist')
 
 # download the videos
-download_playlist('https://www.youtube.com/playlist?list=PL2M0f7eTUkTqsiyF87or1zg4MtHZP0A2y', download_audio=False)
-
-
-# In[ ]:
-
-
-
-
+download_playlist('link of the playlist', download_audio=False)
